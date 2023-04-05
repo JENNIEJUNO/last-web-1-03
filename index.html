@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web 1-03</title>
+        <style>
+            *{
+                margin:0px; padding:0px;
+                font-family:verdana;
+            }
+            ul{list-style-type:none;}
+            a{text-decoration:none}
+            img{display:block;}
+            #header{width:100%;}
+            .menu{
+                width:1180px; height:120px;
+                margin:0px auto;
+                overflow:hidden;
+            }
+            .smenu{
+                float:right;
+                width:300px; height:50px;
+                overflow:hidden;
+            }
+            .smenu ul li{
+                float:left;
+                font-size:5px;
+                margin-top:20px; margin-right:30px;
+                color:rgba(0,0,0,0.5);
+            }
+            .bmenu ul{
+                float:right;
+                width:1180px; height:70px;
+                line-height:70px;
+            }
+            .bmenu ul li{
+                float:left;
+                font-size:15px;
+                padding-right:0px; padding-bottom:0px;
+                color:rgba(0,0,0,0.6);
+            }
+            .bmenu ul li a{
+                margin-left:90px;
+                color:rgba(0,0,0,0.6);
+            }
+            .bmenu ul li a:hover{color:red;}
+            .bmenu ul li:nth-child(1){
+                margin-right:150px;
+                padding-left:10px; padding-bottom:15px;
+                color:rgba(0,0,0,1);
+            }
+            .main_image{
+                width:100%; height:590px;
+                background-image:url(bg_main.png);
+                overflow:hidden;
+            }
+            .main_image .main_sentence{
+                width:800px; height:300px;
+                margin:150px auto 0px auto;
+                overflow:hidden;
+                font-size:25px;
+                color:white;
+            }
+            .main_sentence p::first-line{font-size:80px;}
+            .section{
+                width:1180px; height:450px;
+                margin:0px auto 50px auto;
+                overflow:hidden;
+            }
+            .section span p{
+                text-align:center;
+                font-size:15px;
+                overflow:hidden;
+                margin:50px auto 50px auto;
+            }
+            .article{
+                width:230px; height:500px;
+                margin:0px 32.5px;
+                float:left;
+                overflow:hidden;
+            }
+            .footer{
+                width:100%; height:200px;
+                color:rgba(255, 255, 255, 0.5);
+                background-color:rgb(4, 4, 63);
+            }
+            .upmenu{
+                width:1000px; height:100px;
+                margin:auto;
+                line-height:100px;
+                overflow:hidden;
+            }
+            .upmenu ul{float:left;}
+            .upmenu ul li{
+                float:left;
+                font-size:13px;
+            }
+            .upmenu ul li:nth-child(1){
+                font-size:20px;
+                margin-right:150px;
+                padding-left:10px; padding-bottom:15px;
+            }
+            .upmenu ul li a{
+                margin-right:20px;
+                color:rgba(255, 255, 255, 0.5);
+            }
+            .upmenu ul li a:hover{color:red;}
+            .unmenu{
+                width:1000px; height:100px;
+                margin:auto;
+                overflow:hidden;
+            }
+            .unmenu ul{
+                font-size:11px;
+                float:left;
+                margin-top:20px; margin-left:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="menu">
+                <div class="smenu">
+                    <ul>
+                        <li>Contact</li>
+                        <li>Help</li>
+                        <li>Login</li>
+                        <li>Join</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+                <div class="bmenu">
+                    <ul>
+                        <li><h1>WON LAB</h1></li>
+                        <li><h5><a href="#">DEPARTMENT</a></h5></li>
+                        <li><h5><a href="gallery.html">GALLERY</a></h5></li>
+                        <li><h5><a href="#">YOUTUBE</a></h5></li>
+                        <li><h5><a href="#">COMMUNITY</a></h5></li>
+                        <li><h5><a href="#">LCATION</a></h5></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_image">
+            <div class="main_sentence">
+                <p><strong>THE FUTURE</strong><br>
+                The World Wide web (WWW), commonly known as the Web, is<br>
+                an information system enabling documents and other web<br>
+                resources to be accessed over the Internet.</p>
+            </div>
+        </div>
+        <div class="section">
+            <span><p><strong>RECENT NEWS</strong></p></span>
+            <div class="article">
+                <img src="article1.png"><br>
+                <p><strong>X-mas</strong></p><br>
+                X-mas is a common<br>abbreviation of the World
+                <br>Christmas
+            </div>
+            <div class="article">
+                <img src="article2.png"><br>
+                <p><strong>Bell</strong></p><br>
+                a hollow metal obhect<br>shaped like a cup
+            </div>
+            <div class="article">
+                <img src="article3.png"><br>
+                <p><strong>Bear</strong></p><br>
+                a large, strong wild<br>mammal with a thick fur<br>
+                coat that lives especially in<br>colder parts of Europe, Asiz,<br>
+                and North America
+            </div>
+            <div class="article">
+                <img src="article4.png"><br>
+                <p><strong>Socks</strong></p><br>
+                a piece of clothing made<br>from soft marerial that<br>
+                covers your foot and the<br>lower part of your leg
+            </div>
+        </div>
+        <div class="footer">
+            <div class="upmenu">
+                <ul>
+                    <li><h1>WON LAB</h1></li>
+                    <li><a href="#">ⓒ 2022-2023 Won Lab, Inc.</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">Site amp</a></li>
+                </ul>
+            </div>
+            <div class="unmenu">
+                <ul>
+                    <li>45, Hwangsaeul-ro 200beon-hil, Bundamg-gu, Seongnam-si, Gyeonggi-do, Repubilc of Korea</li>
+                    <li>Tel: 031-0000-1111</li>
+                    <li>Fax: 031-111-0000</li>
+                    <li>Contact: wonlab@wonlab.com</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

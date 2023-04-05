@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>gallery</title>
+        <style>
+            *{
+                margin:0px; padding:0px;
+                font-family:verdana;
+            }
+            ul{list-style-type:none;}
+            a{text-decoration:none}
+            #header{
+                width:100%;
+                position:fixed;
+            }
+            .menu{
+                width:1180px; height:120px;
+                margin:auto;
+                overflow:hidden;
+                background-color:white;
+            }
+            .smenu{
+                float:right;
+                width:300px; height:50px;
+                overflow:hidden;
+            }
+            .smenu ul li{
+                float:left;
+                font-size:5px;
+                margin-top:20px; margin-right:30px;
+                color:rgba(0,0,0,0.5);
+            }
+            .bmenu ul{
+                float:right;
+                width:1180px; height:70px;
+                line-height:70px;
+            }
+            .bmenu ul li{
+                float:left;
+                font-size:15px;
+                padding-right:0px; padding-bottom:0px;
+                color:rgba(0,0,0,0.6);
+            }
+            .bmenu ul li a{
+                margin-left:90px;
+                color:rgba(0,0,0,0.6);
+            }
+            .bmenu ul li a:hover{color:red;}
+            .bmenu ul li:nth-child(1){
+                margin-right:150px;
+                padding-left:10px; padding-bottom:15px;
+                color:rgba(0,0,0,1);
+            }
+            .section{
+                width:1000px;
+                margin:auto;
+                padding-top:120px;
+                overflow:hidden;
+            }
+            .article{overflow:hidden;}
+            .article1{
+                float:left;
+                width:700px; height:400px;
+                margin:0px 10px 10px 0px;
+                overflow:hidden;
+                background-image:url(700x400.png);
+                display:flex;
+                justify-content:flex-end;
+                align-items:flex-end;
+            }
+            .article1 .text_box{
+                font-size:30px;
+                padding-right:10px;
+                padding-bottom:10px;
+                color:white;
+            }
+            .article2{
+                float:left;
+                width:290px; height:190px;
+                margin-bottom:10px;
+                background-image:url(290x190.png);
+            }
+            .article2 .text_box{
+                padding-top:50px;
+                padding-left:10px;
+                font-size:20px;
+                color:white;
+            }
+            .article3-1{
+                float:left;
+                width:290px; height:95px;
+                margin-bottom:10px;
+                overflow:hidden;
+                display:flex;
+                justify-content:flex-end;
+                align-items:flex-end;
+                background-image:url(290x95-1.png)
+            }
+            .article3-1 .text_box{
+                padding-right:10px;
+                padding-bottom:20px;
+                font-size:20px;
+                color:white;
+            }
+            .article4{
+                width:490px; height:500px;
+                margin-right:10px;
+                float:left;
+            }
+            .article4 .article4-1{
+                width:490px; height:240px;
+                margin-bottom:10px;
+                background-image:url(490x240-1.png);
+                overflow:hidden;
+            }
+            .article4 .article4-1 .text{
+                width:300px;
+                margin:160px auto;
+            }
+            .article4 .article4-2{
+                width:490px; height:240px;
+                display:flex;
+                justify-content:flex-end;
+                align-items:flex-end;
+                background-image:url(490x240-2.png);
+            }
+            .article4 .article4-2 .text{
+                padding-right:20px; padding-bottom:30px;
+                font-size:30px;
+                color:gold;
+            }
+            .article5{
+                width:500px; height:490px;
+                float:left;
+                background-image:url(500x490.png);
+            }
+            .article6{
+                width:1000px; height:371px;
+                float:left;
+                margin-bottom:10px;
+                background-image:url(1000x371.png);
+                overflow:hidden;
+            }
+            .article6 .text{
+                text-align:center;
+                line-height:500px;
+                font-size:50px;
+                text-shadow:0px 3px 15px black;
+                color:white;
+            }
+            .article7{
+                position:relative;
+                width:1000px; height:361px;
+                float:left;
+                background-image:url(1000x361.png);
+            }
+            .article7 .text{
+                position:absolute;
+                width:450px; height:150px;
+                right:30px; bottom:40px;
+                font-size:20px;
+                color:white;
+            }
+            .article7 .text span{font-size:30px;}
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="menu">
+                <div class="smenu">
+                    <ul>
+                        <li>Contact</li>
+                        <li>Help</li>
+                        <li>Login</li>
+                        <li>Join</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+                <div class="bmenu">
+                    <ul>
+                        <li><h1>WON LAB</h1></li>
+                        <li><h5><a href="#">DEPARTMENT</a></h5></li>
+                        <li><h5><a href="gallery.html">GALLERY</a></h5></li>
+                        <li><h5><a href="#">YOUTUBE</a></h5></li>
+                        <li><h5><a href="#">COMMUNITY</a></h5></li>
+                        <li><h5><a href="#">LCATION</a></h5></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="section">
+            <div class="article">
+                <div class="article1">
+                    <div class="text_box">Merry Christmas</div>
+                </div>
+                <div class="article2">
+                    <div class="text_box">Frozen</div>
+                </div>
+                <div class="article3-1">
+                    <div class="text_box">Present</div>
+                </div>
+                <div class="article3-2">
+                    <img src="290x95-2.png">
+                </div>
+                <div class="article4">
+                    <div class="article4-1">
+                        <div class="text">
+                            Someone who solves a problem you<br>
+                            didn't know you had, in a way that<br>
+                            you don't understand.
+                        </div>
+                    </div>
+                    <div class="article4-2">
+                        <div class="text"><strong>Be RICH!!</strong></div>
+                    </div>
+                </div>
+                <div class="article5"></div>
+                <div class="article6">
+                    <div class="text">
+                        <strong>Life is entirely Y.O.U.R.S</strong>
+                    </div>
+                </div>
+                <div class="article7">
+                    <div class="text">
+                        <span><strong>Programmer</strong></span> is the perfect future.<br>
+                        Let's be <span><strong>the Digital Nomad!</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
